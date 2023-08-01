@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "insurance_welcomes",
   "info": {
     "singularName": "insurance-welcome",

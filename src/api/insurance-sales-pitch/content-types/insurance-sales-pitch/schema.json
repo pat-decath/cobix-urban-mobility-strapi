@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "insurance_sales_pitches",
   "info": {
     "singularName": "insurance-sales-pitch",
