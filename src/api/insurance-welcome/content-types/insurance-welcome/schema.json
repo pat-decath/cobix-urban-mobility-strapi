@@ -32,7 +32,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "logo": {
       "pluginOptions": {
@@ -41,7 +41,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "button_color": {
       "pluginOptions": {
@@ -50,7 +50,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "insurance_id": {
       "pluginOptions": {
