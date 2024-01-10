@@ -2,7 +2,8 @@
   "collectionName": "components_expandable_list_expandable_item_s",
   "info": {
     "displayName": "Expandable item ",
-    "icon": "bulletList"
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -43,7 +43,7 @@
           "localized": true
         }
       },
-      "component": "expandable-list.expandable-item",
+      "component": "list-items.expandable-item",
       "required": false
     },
     "card_footer_text": {
