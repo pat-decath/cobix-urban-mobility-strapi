@@ -12,28 +12,30 @@
       "required": true,
       "default": "Item"
     },
-    "domain": {
-      "type": "enumeration",
-      "enum": [
-        "WHEEL",
-        "BRAKE",
-        "FRAME"
-      ],
-      "required": true
-    },
     "link": {
       "type": "string"
     },
     "thumbnail": {
       "type": "string"
     },
+    "domain": {
+      "type": "customField",
+      "options": [
+        "WHEEL",
+        "BRAKE",
+        "FRAME"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    },
     "category": {
-      "type": "enumeration",
-      "enum": [
+      "type": "customField",
+      "options": [
         "REPAIR",
         "CARE"
       ],
-      "required": true
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }

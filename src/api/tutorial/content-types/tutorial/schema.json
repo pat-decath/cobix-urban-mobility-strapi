@@ -1,10 +1,11 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "tutorials",
   "info": {
     "singularName": "tutorial",
     "pluralName": "tutorials",
-    "displayName": "Tutorial"
+    "displayName": "Tutorial",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,15 +16,62 @@
     }
   },
   "attributes": {
-    "items": {
-      "type": "component",
-      "repeatable": true,
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "list-items.simple-item"
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false
+    },
+    "domain": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": [
+        "WHEEL",
+        "BRAKE",
+        "FRAME",
+        "MOTEUR"
+      ],
+      "required": true,
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "category": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": [
+        "REPAIR",
+        "CARE"
+      ],
+      "customField": "plugin::multi-select.multi-select",
+      "required": true
     }
   }
 }
