@@ -46,6 +46,12 @@ Strapi gives you many possible deployment options for your project. Find the one
 
 Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
 
+## 🔌 Plugins 
+
+This project uses the following plugins :
+
+- Multi Select Input : https://market.strapi.io/plugins/strapi-plugin-multi-select
+
 ## ✨ Community
 
 - [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
