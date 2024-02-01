@@ -53,8 +53,9 @@
       "options": [
         "WHEEL",
         "BRAKE",
-        "FRAME",
-        "MOTEUR"
+        "BIKE",
+        "CHAIN",
+        "BATTERY"
       ],
       "required": true,
       "customField": "plugin::multi-select.multi-select"
