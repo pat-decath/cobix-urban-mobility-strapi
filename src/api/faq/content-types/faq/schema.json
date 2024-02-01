@@ -4,7 +4,8 @@
   "info": {
     "singularName": "faq",
     "pluralName": "faqs",
-    "displayName": "Faq"
+    "displayName": "Faq",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,15 @@
         }
       },
       "component": "list-items.expandable-item",
+      "required": true
+    },
+    "key": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
       "required": true
     }
   }
