@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_reason_reasons",
+  "info": {
+    "displayName": "reasons",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "reason": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
